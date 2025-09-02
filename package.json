@@ -1,0 +1,22 @@
+{
+  "name": "bpmn-modeler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bpmn-io/properties-panel": "^3.33.0",
+    "bpmn-js": "^18.6.3",
+    "bpmn-js-properties-panel": "^5.42.0",
+    "codemirror": "^6.0.2",
+    "diagram-js-minimap": "^5.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  }
+}
