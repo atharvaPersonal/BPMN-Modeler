@@ -70,8 +70,6 @@ document.getElementById('save-file').addEventListener('click', () => {
 });
 
 
-// Add this after your existing event listeners
-
 let xmlVisible = false;
 
 document.getElementById('toggle-xml').addEventListener('click', () => {
@@ -112,4 +110,5 @@ document.getElementById('close-xml').addEventListener('click', () => {
     document.getElementById('xml-panel').style.display = 'none';
     document.getElementById('toggle-xml').textContent = 'View XML';
     xmlVisible = false;
+
 });
